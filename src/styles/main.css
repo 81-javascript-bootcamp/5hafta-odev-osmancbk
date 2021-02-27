@@ -1,0 +1,37 @@
+.spacing {
+    padding: 15px 0;
+}
+
+
+.instructions h3 {
+    text-align: center;
+}
+
+.instructions ol {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.timer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.action-buttons {
+    text-align: center;
+}
+
+.action-buttons .btn + .btn {
+    margin-left: 15px;
+}
+
+tr.active {
+    background: #506350;
+    color: #fff;
+}
+
+tr.completed {
+    text-decoration: line-through;
+    background: gray;
+}
