@@ -16,3 +16,13 @@ export const addTaskToApi = (task) => {
     body: JSON.stringify(task),
   });
 };
+
+export const deleteTaskFromApi = (id) => {
+  return fetch(`${API_URL}/${id}`, {
+    method: 'delete',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+  });
+};
